@@ -1,0 +1,14 @@
+{
+  "name": "clubfunders",
+  "version": "1.0.0",
+  "description": "Clubfunders Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mouse Potato Lab",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.56.1"
+  }
+}
