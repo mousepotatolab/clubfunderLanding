@@ -169,6 +169,10 @@ body {
   max-width: 500px;
 }
 
+.mw-520 {
+  max-width: 520px;
+}
+
 .mw-570 {
   max-width: 570px;
 }
@@ -475,6 +479,11 @@ strong {
 
 .app-features-section {
   background-color: transparent;
+  margin-bottom: 120px;
+}
+
+.desktop-break {
+  display: block;
 }
 
 .app-store-section {
@@ -584,6 +593,176 @@ strong {
   font-size: 16px;
   margin: 22px 0;
   color: #6c757d;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 429px) {
+  .min-h-350 {
+    min-height: 350px;
+  }
+
+  .mt-80 {
+    margin-top: 80px;
+  }
+
+  .h-100 {
+    height: auto;
+    margin-bottom: 120px;
+  }
+
+  .mb-40 {
+    margin-bottom: 40px;
+  }
+
+  .nav-section {
+    margin-bottom: 40px;
+  }
+
+  .club-nav {
+    display: none;
+  }
+
+  .h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .hero-section {
+    height: auto;
+    margin-bottom: 200px;
+    padding-top: 60px;
+  }
+
+  .mobile-wrap {
+    flex-wrap: wrap;
+  }
+  .mobile-wrap .hero-left {
+    width: 100%;
+  }
+  .mobile-wrap .hero-right {
+    width: 100%;
+  }
+
+  .mobile-wrap-revers {
+    flex-wrap: wrap-reverse;
+  }
+  .mobile-wrap-revers .hero-left {
+    width: 100%;
+  }
+  .mobile-wrap-revers .hero-right {
+    width: 100%;
+  }
+
+  .hero-right .image-container .hero-card {
+    width: 100%;
+    top: -80px;
+    right: -40px;
+  }
+  .hero-right .image-container .hero-stats {
+    bottom: -170px;
+    left: -54px;
+  }
+  .hero-right .image-container .summary-card {
+    width: 100%;
+    z-index: 300;
+    top: 0px;
+    right: -60px;
+  }
+  .hero-right .image-container .funder-stats {
+    width: 92%;
+    bottom: -150px;
+    left: -55px;
+  }
+  .hero-right .image-container .circle-dots {
+    top: 280px;
+    left: 180px;
+  }
+  .hero-right .image-container .funding-card {
+    width: 85%;
+    top: -60px;
+    right: -30px;
+  }
+  .hero-right .image-container .adjust-fund {
+    width: 250px;
+    bottom: -80px;
+    left: 64px;
+  }
+  .hero-right .image-container-left .hero-card {
+    width: 100%;
+    z-index: 300;
+    top: -80px;
+    right: -70px;
+  }
+  .hero-right .image-container-left .hero-stats {
+    bottom: -150px;
+    left: -70px;
+  }
+  .hero-right .image-container-left .purple-circle {
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    left: 25px;
+  }
+  .hero-right .image-container-left .orange-circle-2 {
+    top: -40px;
+  }
+  .hero-right .image-container-left .athlete-card {
+    top: -60px;
+    right: 40px;
+  }
+  .hero-right .image-container-left .square-dots-2 {
+    top: 200px;
+    left: 240px;
+  }
+
+  .app-store-section {
+    max-height: 1000px;
+    min-height: 1000px;
+  }
+  .app-store-section .hero-left {
+    top: 80px;
+  }
+  .app-store-section .hero-right {
+    top: 0;
+  }
+  .app-store-section .hero-right .image-container .blue-circle.two {
+    top: 150px;
+    right: 220px;
+  }
+  .app-store-section .hero-right .image-container .orange-circle-2 {
+    bottom: -380px;
+  }
+  .app-store-section .hero-right .image-container .phone-card {
+    top: 180px;
+    left: 64px;
+  }
+  .app-store-section .hero-right .image-container .summary-card {
+    left: -70px;
+    top: 500px;
+    width: 80%;
+  }
+  .app-store-section .hero-right .image-container .funder-stats {
+    width: 80%;
+    bottom: 40px;
+    left: 140px;
+  }
+  .app-store-section .hero-right .image-container .circle-dots {
+    top: 400px;
+    z-index: 80;
+    left: 258px;
+  }
+  .app-store-section .hero-right .image-container .square-dots-alternate {
+    top: 280px;
+    left: 0;
+  }
+
+  .footer-section {
+    padding-top: 80px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
