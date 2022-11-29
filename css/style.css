@@ -540,7 +540,7 @@ strong {
 }
 .app-store-section .hero-left {
   position: relative;
-  top: -180px;
+  top: -220px;
 }
 .app-store-section .hero-left .image-container {
   top: -100px;
@@ -593,6 +593,52 @@ strong {
   font-size: 16px;
   margin: 22px 0;
   color: #6c757d;
+}
+
+#mc_embed_signup .email {
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #dee2e6;
+  min-width: 343px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+#mc_embed_signup .email:focus-visible {
+  border: 1px solid #dee2e6;
+  box-shadow: 0 10px 100 0 #e3e5ee;
+  outline: none;
+}
+#mc_embed_signup #mc-embedded-subscribe {
+  min-width: 343px;
+  background-color: #4834D4;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 0;
+  border-radius: 8px;
+}
+
+#mc_embed_signup-2 .email {
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #dee2e6;
+  min-width: 343px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+#mc_embed_signup-2 .email:focus-visible {
+  border: 1px solid #dee2e6;
+  box-shadow: 0 10px 100 0 #e3e5ee;
+  outline: none;
+}
+#mc_embed_signup-2 #mc-embedded-subscribe {
+  min-width: 343px;
+  background-color: #4834D4;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 0;
+  border-radius: 8px;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 429px) {
@@ -766,6 +812,13 @@ strong {
 
   .footer-section {
     padding-top: 80px;
+  }
+  .footer-section .mobile-center {
+    justify-content: center;
+  }
+  .footer-section .mobile-h-24 {
+    height: 24px;
+    margin-bottom: 16px;
   }
 }
 

@@ -631,7 +631,7 @@ strong {
 
     .hero-left {
         position: relative;
-        top : -180px;
+        top : -220px;
         .image-container {
             top: -100px;
         }
@@ -702,6 +702,61 @@ strong {
 
 // FOOTER SECTION //
 
+
+// Mailchimp Form //
+
+#mc_embed_signup {
+    .email {
+        padding: 16px;
+        font-size: 16px;
+        border: 1px solid rgb(222, 226, 230);
+        min-width: 343px;
+        margin-bottom: 16px;
+border-radius: 8px;
+
+        &:focus-visible {
+            border: 1px solid rgb(222, 226, 230);
+            box-shadow: 0 10px 100 0 rgba(227, 229, 238, 1);
+            outline: none;
+        }
+    }
+
+    #mc-embedded-subscribe {
+        min-width: 343px;
+        background-color: #4834D4;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 16px 0;
+        border-radius: 8px;
+    }
+}
+#mc_embed_signup-2 {
+    .email {
+        padding: 16px;
+        font-size: 16px;
+        border: 1px solid rgb(222, 226, 230);
+        min-width: 343px;
+        margin-bottom: 16px;
+border-radius: 8px;
+
+        &:focus-visible {
+            border: 1px solid rgb(222, 226, 230);
+            box-shadow: 0 10px 100 0 rgba(227, 229, 238, 1);
+            outline: none;
+        }
+    }
+
+    #mc-embedded-subscribe {
+        min-width: 343px;
+        background-color: #4834D4;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 16px 0;
+        border-radius: 8px;
+    }
+}
 
 
 //  MOBILE //
@@ -918,8 +973,18 @@ strong {
 
     .footer-section {
         padding-top: 80px;
+
+        .mobile-center {
+            justify-content: center;
+        }
+
+        .mobile-h-24 {
+            height: 24px;
+            margin-bottom: 16px;
+        }
     }
 }
+
 
 
 
