@@ -240,6 +240,7 @@ strong {
 
 .hero-section {
   height: 100vh;
+  min-height: 850px;
   background-color: #F0EEFB;
 }
 
