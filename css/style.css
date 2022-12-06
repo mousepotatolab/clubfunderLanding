@@ -639,6 +639,7 @@ strong {
   font-weight: 400;
   padding: 16px 0;
   border-radius: 8px;
+  border: 1px solid #4834D4;
 }
 
 #mc_embed_signup-2 .email {
@@ -662,6 +663,7 @@ strong {
   font-weight: 400;
   padding: 16px 0;
   border-radius: 8px;
+  border: 1px solid #4834D4;
 }
 
 #mc_embed_signup-3 .email {
@@ -685,6 +687,7 @@ strong {
   font-weight: 400;
   padding: 16px 0;
   border-radius: 8px;
+  border: 1px solid #4834D4;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 429px) {
