@@ -1,6 +1,6 @@
 html.has-scroll-smooth {
     overflow: hidden;
-    // transform: none !important;
+    transform: none !important;
   }
   
   html.has-scroll-dragging {
@@ -16,6 +16,7 @@ html.has-scroll-smooth {
   
   .has-scroll-smooth [data-scroll-container] {
     min-height: 100vh;
+    perspective: 1px;
   }
   
   [data-scroll-direction="horizontal"] [data-scroll-container] {
@@ -36,14 +37,14 @@ html.has-scroll-smooth {
 	transform: translateZ(0);
 }
 
-[data-load-container] {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	width: 100vw;
-}
+// [data-load-container] {
+// 	position: fixed;
+// 	top: 0;
+// 	right: 0;
+// 	bottom: 0;
+// 	left: 0;
+// 	width: 100vw;
+// }
   
   .c-scrollbar {
     position: absolute;
@@ -112,6 +113,11 @@ html.has-scroll-smooth {
   }
 
 
+  .ul {
+    padding-inline-start: 32px;
+    margin-bottom: 24px;
+  }
+
   .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -144,6 +150,10 @@ html.has-scroll-smooth {
     margin-top: 0px;
   }
 
+  .mt-16 {
+    margin-top: 16px;
+  }
+
   .h-full {
     height: 100%;
   }
@@ -169,7 +179,7 @@ html.has-scroll-smooth {
   }
 
   .mw-570 {
-    max-width: 570px;
+    max-width: 572px;
   }
 
  
@@ -308,11 +318,11 @@ strong {
         }
 
         .hero-card {
-            width: 92%;
+            width: 88%;
             position: absolute;
             z-index: 100;
             top: -161px;
-            right: -88px;
+            right: -50px;
             
             img {
                 width: 100%;
@@ -323,7 +333,7 @@ strong {
             width: 70%;
             position: absolute;
             z-index: 140;
-            top: -161px;
+            top: -100px;
             right: 23px;
             
             img {
@@ -359,10 +369,10 @@ strong {
 
         
         .hero-stats {
-            width: 92%;
+            width: 88%;
             position: absolute;
             z-index: 100;
-        bottom: -252px;
+        bottom: -220px;
             left: -122px;
             
             img {
@@ -371,7 +381,7 @@ strong {
         }
 
         .funder-stats {
-            width: 92%;
+            width: 75%;
             position: absolute;
             z-index: 120;
         bottom: -240px;
@@ -385,8 +395,8 @@ strong {
         .adjust-fund {
             width: 311px;
             position: absolute;
-            z-index: 120;
-        bottom: -140px;
+            z-index: 200;
+        bottom: -120px;
             left: 64px;
             
             img {
@@ -440,6 +450,18 @@ strong {
             z-index: 10;
         }
 
+        .loading-card {
+            width: 94%;
+            position: absolute;
+            z-index: 100;
+            top: 100px;
+            right: 8px;
+            
+            img {
+                width: 100%;
+            };
+        }
+
         .blue-circle {
             position: absolute;
             left: 78px;
@@ -447,11 +469,11 @@ strong {
         }
 
         .hero-card {
-            width: 92%;
+            width: 75%;
             position: absolute;
-            z-index: 100;
-            top: -161px;
-            right: -88px;
+            z-index: 110;
+            top: -73px;
+            right: 8px;
             
             img {
                 width: 100%;
@@ -501,11 +523,11 @@ strong {
         }
 
         .hero-stats {
-            width: 92%;
+            width: 76%;
             position: absolute;
             z-index: 100;
-        bottom: -252px;
-            left: -122px;
+        bottom: -187px;
+            left: -83px;
             
             img {
                 width: 100%;
@@ -545,6 +567,17 @@ strong {
             img {
                 width: 100%;
             };
+        }
+
+        .pink-triangle {
+            position: absolute;
+            width: 280px;
+            right: 102px;
+            top: -11px;
+            z-index: 100;
+            img {
+                width: 100%;
+            }
         }
     }
 }
@@ -732,6 +765,32 @@ border-radius: 8px;
     }
 }
 #mc_embed_signup-2 {
+    .email {
+        padding: 16px;
+        font-size: 16px;
+        border: 1px solid rgb(222, 226, 230);
+        min-width: 343px;
+        margin-bottom: 16px;
+border-radius: 8px;
+
+        &:focus-visible {
+            border: 1px solid rgb(222, 226, 230);
+            box-shadow: 0 10px 100 0 rgba(227, 229, 238, 1);
+            outline: none;
+        }
+    }
+
+    #mc-embedded-subscribe {
+        min-width: 343px;
+        background-color: #4834D4;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 16px 0;
+        border-radius: 8px;
+    }
+}
+#mc_embed_signup-3 {
     .email {
         padding: 16px;
         font-size: 16px;

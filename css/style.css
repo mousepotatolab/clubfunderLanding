@@ -1,5 +1,6 @@
 html.has-scroll-smooth {
   overflow: hidden;
+  transform: none !important;
 }
 
 html.has-scroll-dragging {
@@ -15,6 +16,7 @@ html.has-scroll-dragging {
 
 .has-scroll-smooth [data-scroll-container] {
   min-height: 100vh;
+  perspective: 1px;
 }
 
 [data-scroll-direction=horizontal] [data-scroll-container] {
@@ -33,15 +35,6 @@ html.has-scroll-dragging {
 html.has-scroll-smooth {
   backface-visibility: hidden;
   transform: translateZ(0);
-}
-
-[data-load-container] {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
 }
 
 .c-scrollbar {
@@ -115,6 +108,11 @@ body {
   overflow: hidden;
 }
 
+.ul {
+  padding-inline-start: 32px;
+  margin-bottom: 24px;
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -149,6 +147,10 @@ body {
   margin-top: 0px;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -174,7 +176,7 @@ body {
 }
 
 .mw-570 {
-  max-width: 570px;
+  max-width: 572px;
 }
 
 strong {
@@ -278,11 +280,11 @@ strong {
   left: 30px;
 }
 .hero-right .image-container .hero-card {
-  width: 92%;
+  width: 88%;
   position: absolute;
   z-index: 100;
   top: -161px;
-  right: -88px;
+  right: -50px;
 }
 .hero-right .image-container .hero-card img {
   width: 100%;
@@ -291,7 +293,7 @@ strong {
   width: 70%;
   position: absolute;
   z-index: 140;
-  top: -161px;
+  top: -100px;
   right: 23px;
 }
 .hero-right .image-container .funding-card img {
@@ -318,17 +320,17 @@ strong {
   width: 100%;
 }
 .hero-right .image-container .hero-stats {
-  width: 92%;
+  width: 88%;
   position: absolute;
   z-index: 100;
-  bottom: -252px;
+  bottom: -220px;
   left: -122px;
 }
 .hero-right .image-container .hero-stats img {
   width: 100%;
 }
 .hero-right .image-container .funder-stats {
-  width: 92%;
+  width: 75%;
   position: absolute;
   z-index: 120;
   bottom: -240px;
@@ -340,8 +342,8 @@ strong {
 .hero-right .image-container .adjust-fund {
   width: 311px;
   position: absolute;
-  z-index: 120;
-  bottom: -140px;
+  z-index: 200;
+  bottom: -120px;
   left: 64px;
 }
 .hero-right .image-container .adjust-fund img {
@@ -386,17 +388,27 @@ strong {
   left: 19px;
   z-index: 10;
 }
+.hero-right .image-container-left .loading-card {
+  width: 94%;
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  right: 8px;
+}
+.hero-right .image-container-left .loading-card img {
+  width: 100%;
+}
 .hero-right .image-container-left .blue-circle {
   position: absolute;
   left: 78px;
   top: 12px;
 }
 .hero-right .image-container-left .hero-card {
-  width: 92%;
+  width: 75%;
   position: absolute;
-  z-index: 100;
-  top: -161px;
-  right: -88px;
+  z-index: 110;
+  top: -73px;
+  right: 8px;
 }
 .hero-right .image-container-left .hero-card img {
   width: 100%;
@@ -437,11 +449,11 @@ strong {
   left: 50px;
 }
 .hero-right .image-container-left .hero-stats {
-  width: 92%;
+  width: 76%;
   position: absolute;
   z-index: 100;
-  bottom: -252px;
-  left: -122px;
+  bottom: -187px;
+  left: -83px;
 }
 .hero-right .image-container-left .hero-stats img {
   width: 100%;
@@ -474,6 +486,16 @@ strong {
   left: 80px;
 }
 .hero-right .image-container-left .square-dots-alternate img {
+  width: 100%;
+}
+.hero-right .image-container-left .pink-triangle {
+  position: absolute;
+  width: 280px;
+  right: 102px;
+  top: -11px;
+  z-index: 100;
+}
+.hero-right .image-container-left .pink-triangle img {
   width: 100%;
 }
 
@@ -632,6 +654,29 @@ strong {
   outline: none;
 }
 #mc_embed_signup-2 #mc-embedded-subscribe {
+  min-width: 343px;
+  background-color: #4834D4;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 0;
+  border-radius: 8px;
+}
+
+#mc_embed_signup-3 .email {
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #dee2e6;
+  min-width: 343px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+#mc_embed_signup-3 .email:focus-visible {
+  border: 1px solid #dee2e6;
+  box-shadow: 0 10px 100 0 #e3e5ee;
+  outline: none;
+}
+#mc_embed_signup-3 #mc-embedded-subscribe {
   min-width: 343px;
   background-color: #4834D4;
   color: #fff;
