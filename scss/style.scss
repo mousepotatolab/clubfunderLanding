@@ -941,15 +941,16 @@ border-radius: 8px;
 
         .image-container-left {
             .hero-card {
-                width: 100%;
+                width: 90%;
                 z-index: 300;
-                top: -80px;
-                right: -70px;
+                top: -25px;
+                right: -61px;
             }
     
             .hero-stats {
-                bottom: -150px;
-                left: -70px;
+                width: 80%;
+                bottom: -45px;
+                left: -42px;
             }
 
             .purple-circle {
@@ -971,6 +972,17 @@ border-radius: 8px;
             .square-dots-2 {
                 top: 200px;
                 left: 240px;
+            }
+
+            .pink-triangle {
+                position: absolute;
+                width: 170px;
+                right: 16px;
+                top: 59px;
+                z-index: 100;
+                img {
+                    width: 100%;
+                }
             }
         }
     }
@@ -1042,8 +1054,15 @@ border-radius: 8px;
         }
 
         .mobile-h-24 {
-            height: 24px;
+            height: auto;
             margin-bottom: 16px;
+            width: 80px;
+        }
+    }
+
+    #mc_embed_signup {
+        #mc-embedded-subscribe {
+            height: 52px;
         }
     }
 }

@@ -791,14 +791,15 @@ strong {
     left: 64px;
   }
   .hero-right .image-container-left .hero-card {
-    width: 100%;
+    width: 90%;
     z-index: 300;
-    top: -80px;
-    right: -70px;
+    top: -25px;
+    right: -61px;
   }
   .hero-right .image-container-left .hero-stats {
-    bottom: -150px;
-    left: -70px;
+    width: 80%;
+    bottom: -45px;
+    left: -42px;
   }
   .hero-right .image-container-left .purple-circle {
     width: 300px;
@@ -816,6 +817,16 @@ strong {
   .hero-right .image-container-left .square-dots-2 {
     top: 200px;
     left: 240px;
+  }
+  .hero-right .image-container-left .pink-triangle {
+    position: absolute;
+    width: 170px;
+    right: 16px;
+    top: 59px;
+    z-index: 100;
+  }
+  .hero-right .image-container-left .pink-triangle img {
+    width: 100%;
   }
 
   .app-store-section {
@@ -866,8 +877,13 @@ strong {
     justify-content: center;
   }
   .footer-section .mobile-h-24 {
-    height: 24px;
+    height: auto;
     margin-bottom: 16px;
+    width: 80px;
+  }
+
+  #mc_embed_signup #mc-embedded-subscribe {
+    height: 52px;
   }
 }
 
