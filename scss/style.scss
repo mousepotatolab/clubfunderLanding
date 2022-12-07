@@ -1056,11 +1056,21 @@ border-radius: 8px;
         .mobile-h-24 {
             height: auto;
             margin-bottom: 16px;
-            width: 80px;
+            width: 180px;
         }
     }
 
     #mc_embed_signup {
+        #mc-embedded-subscribe {
+            height: 52px;
+        }
+    }
+    #mc_embed_signup-2 {
+        #mc-embedded-subscribe {
+            height: 52px;
+        }
+    }
+    #mc_embed_signup-3 {
         #mc-embedded-subscribe {
             height: 52px;
         }
